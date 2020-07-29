@@ -11,3 +11,4 @@ goto END
 taskkill /IM googledrivesync.exe /T /F
 taskkill /IM OneDrive.exe /T /F
 :END
+Exit
