@@ -5,7 +5,7 @@ if "%ERRORLEVEL%"=="0" goto Process_Found
 start "" "C:\Program Files\Google\Drive\googledrivesync.exe"
 start "" "C:\Users\shiva\AppData\Local\Microsoft\OneDrive\OneDrive.exe"
 timeout 2
-wscript "D:\Program Files (x86)\Drives-Toggle-Switch\Files\autokey.vbs"
+wscript "autokey.vbs"
 goto END
 :Process_Found
 taskkill /IM googledrivesync.exe /T /F
